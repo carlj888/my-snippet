@@ -1,0 +1,16 @@
+##########
+# GLOBAL #
+##########
+
+global !p
+
+###############
+# ENVIRONMENT #
+###############
+
+sinppet beg "bbegin{} / end{}" bi
+\begin{$1}
+		${0:${VISUAL}}
+\end{$1}
+endsinppet
+
